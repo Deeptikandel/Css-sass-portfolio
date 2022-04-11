@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  margin: auto;
+ 
+  .logo {
+    font-size: 20px;
+    font-weight: 650;
+    background-color: $primary_Color;
+    border-radius: 10%;
+    padding: 4px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+      margin: 16px 30px;
+
+      a:hover {
+        color: $primary_Color;
+      }
+    }
+  }
+}

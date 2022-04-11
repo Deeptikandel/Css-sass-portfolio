@@ -1,0 +1,36 @@
+footer {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background-color:$primary_Color ;
+
+  h3 {
+    
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+
+  p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+
+  a{
+    margin: 12px;
+    .fab{
+      font-size: 2rem;
+
+    }
+
+
+
+  }
+  }
+}

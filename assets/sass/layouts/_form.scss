@@ -1,0 +1,23 @@
+.contact {
+  margin: 30px auto;
+  width: 80%;
+  
+ 
+  form {
+    width: 50%;
+    margin:auto ;
+    padding:50px ;
+    background-color: $card-color;
+  
+
+    input, textarea {
+      width: 80%;
+      height: 50px;
+      padding: 10px;
+      border-style: none;
+      &:hover{
+        border: 0.5px solid $primary_Color;
+      }
+    }
+  }
+}

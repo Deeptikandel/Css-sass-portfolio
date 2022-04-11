@@ -1,0 +1,26 @@
+@import './base/variables';
+@import './base/normalize';
+@import './base/animation';
+@import './layouts/header';
+@import './layouts/navigations';
+@import './component/buttons';
+@import './layouts/services';
+@import './layouts/subtitle';
+@import './layouts/techStack';
+@import './layouts/blog';
+@import './layouts/form';
+@import './layouts/footer';
+
+
+.main{
+  width: 100%;
+  margin: auto;
+  display: block;
+  section:not(.header){
+    width: 95%;
+    margin: auto;
+  }
+}
+
+
+
