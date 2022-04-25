@@ -151,8 +151,18 @@ header {
 }
 
 header .header-content {
-  width: 50%;
+  width: 40%;
   margin: 0 20px;
+}
+
+header .header-content h1 {
+  color: #66e2c5;
+  font-weight: 600;
+  padding: 10px;
+}
+
+header .header-content p {
+  padding: 10px;
 }
 
 header svg {
